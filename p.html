@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>璐璐小朋友</title>
+	
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="./jscss/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="./jscss/jquery.js"></script>
+	<script type="text/javascript" src="./jscss/garden.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content" style="width: 1160px; height: 625px; margin-top: 52px; margin-left: 220px;">
+			<div id="code" style="margin-top: 62.5px;">
+			
+				Boy * i = <span class="keyword">new</span> Boy(<span class="string">"petit_ami"</span>);<br>
+				<span class="comments">// Yes i am petit_ami. </span><br>
+				Girl * u ;<br>
+				<span class="keyword">while</span> (1) {<br>
+				<span class="placeholder"><span class="keyword">try</span> {<br>
+				<span class="placeholder"><span class="placeholder">u = <span class="keyword">new</span> petite_amie(); <br>
+					<span class="placeholder">}<br>
+				<span class="placeholder"><span class="keyword">catch</span> (get_emotion()) {<br>
+					<span class="placeholder"><span class="placeholder"><span class="keyword">continue</span>; <br>
+						<span class="placeholder">	}<br>
+				<span class="placeholder">if (u.emotion != <span class="string">NULL</span>){ continue; }</span><br> 
+				<span class="placeholder"><span class="comments">// Determine if my girlfriend has emotions...<br></span>
+				<span class="placeholder"><span class="comments">// Usually there are...usually...<br></span>
+				}<br>
+					<span class="keyword">try</span>{<br>
+					<span class="placeholder"><span class="keyword">while</span> (<span class="keyword">1</span>) {<br>
+					<span class="placeholder"><span class="placeholder"><span class="keyword">switch</span>( u.emotion() ){<br>
+							<span class="placeholder"><span class="placeholder"><span class="keyword">case</span><span class="string">"happy"</span>: i.happy();break; <br>
+					<span class="placeholder"><span class="placeholder"><span class="keyword">case</span><span class="string">"unhappy"</span>: i.unhappy;break; <br>
+					<span class="placeholder"><span class="placeholder"><span class="keyword">case</span><span class="string">"uncertain"</span>: i.test(u);break; <br>
+					<span class="placeholder"><span class="placeholder"><span class="keyword">default</span>: i.Frightened();break; <br>
+					<span class="placeholder"><span class="placeholder">}<br>
+					<span class="placeholder">}<br>
+				}<br>
+				<span class="keyword">if</span>(Girl::unhappy){ <br>
+				<span class="comments">// case unhappy.<br></span>
+				<span class="placeholder">i.Cant_talk(<span class="keyword">any</span>); <br>
+				<span class="placeholder"><span class="comments">// I can't talk, or u will be angry..<br></span>
+				}<br>
+				<span class="keyword">if</span>(Girl::happy){ <br>
+				<span class="comments">// case happy.<br></span>
+				<span class="placeholder">i.talk(<span class="keyword">everything</span>); <br>
+				<span class="placeholder"><span class="comments">// I will chat with u.<br></span>
+				}<br>
+				<span class="keyword">if</span>(Girl::uncertain){ <br>
+				<span class="comments">// case uncertain.<br></span>
+				<span class="placeholder">i.test(<span class="keyword">u</span>); <br>
+				<span class="placeholder"><span class="comments">// I will test u.<br></span>
+				}<br>
+				<span class="keyword">fonction</span>test(girl){ <br>
+				<span class="comments">// case test(u).<br></span>
+				<span class="placeholder">i.ask(<span class="keyword">"why"</span>); <br>
+				<span class="placeholder">u.reply(<span class="keyword">"nothing"</span>); <br>
+				<span class="placeholder">i.ask(<span class="keyword">"why"</span>); <br>
+				<span class="placeholder">u.reply(<span class="keyword">"Don't care for me"</span>); <br>		
+				<span class="placeholder">i.ask(<span class="keyword">"why"</span>); <br>
+				<span class="placeholder">u.reply(<span class="keyword">"OUT!!"</span>); <br>					
+				<span class="placeholder"><span class="comments">// ...<br></span>
+				<span class="placeholder"><span class="comments">// I have to go to 418<br></span>		
+				<span class="placeholder"><span class="comments">// Or...(vide)<br></span>				
+				}<br>				
+			</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div>
+			<div id="loveHeart">
+				<canvas id="garden" width="670" height="625"></canvas>
+				<div id="words">
+					<div id="messages">
+						&nbsp;&nbsp;小朋友！ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<br> 纪念 在一起的 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第
+						<br>
+						<div id="elapseClock">&nbsp;&nbsp;&nbsp;&nbsp;<span class="digit">333</span> days <span class="digit">17</span> hrs <span class="digit"><br>&nbsp;&nbsp;07</span> mins <span class="digit">33</span> secs</div>
+					</div>
+					
+					<div id="loveu">
+						小朋友我爱你哟！<br>
+						<div class="signature">--小盆友</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var nolovetime = new Date();
+		nolovetime.setFullYear(2016, 08, 28);
+		nolovetime.setHours(0);
+		nolovetime.setMinutes(0);
+		nolovetime.setSeconds(0);
+		nolovetime.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 100);
+
+			timeElapse(nolovetime);
+			setInterval(function () {
+				timeElapse(nolovetime);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+
+<audio autoplay controls loop>
+<source src="music/2.mp3" type='audio/ogg'>
+<source src="music/2.mp3" type='audio/mpeg'>   
+</audio>
+</body></html>
